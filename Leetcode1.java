@@ -14,6 +14,7 @@ public class Leetcode1 {
             nums[i] = inp.nextInt();
         }
         getConcatenation(nums);
+        inp.close();
     }
 
     static void getConcatenation(int[] nums) {
