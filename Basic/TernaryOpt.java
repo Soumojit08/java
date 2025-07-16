@@ -1,3 +1,6 @@
+
+package Basic;
+
 public class TernaryOpt {
 
     public static void main (String args[]){

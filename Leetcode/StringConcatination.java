@@ -1,7 +1,9 @@
+package Leetcode;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Leetcode1 {
+public class StringConcatination {
 
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
