@@ -21,6 +21,7 @@ public class Sorting {
     static void sort(int[] arr){
         System.out.println(Arrays.toString(arr));
 
+        
         //Initialize pivot and P Q
         int pivot = arr[0];
         int p = arr[1];
@@ -30,13 +31,17 @@ public class Sorting {
         System.out.println(pivot + " " + p + " " + q );
 
         //check pivot and p
-        if (pivot > p){
-            temp = pivot;
-            pivot = p;
-            p = temp;
-        } else {
-            p = arr[i+1];
+        for (int i = 0; i < arr.length; i++) {
+            if (pivot > p){
+                temp = pivot;
+                pivot = p;
+                p = temp;
+            } else {
+                p = arr[i+1];
+                q= arr[i-1];
+            }
         }
+
 
         System.out.println(pivot + " " + p + " " + q + " ");
 
