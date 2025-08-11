@@ -15,35 +15,13 @@ public class Sorting {
             arr[i]=in.nextInt();
         }
 
-        sort(arr);
+        sort(arr, 0, arr.length-1);
     }
 
-    static void sort(int[] arr){
-        System.out.println(Arrays.toString(arr));
-
-        
-        //Initialize pivot and P Q
-        int pivot = arr[0];
-        int p = arr[1];
-        int q = arr[arr.length - 1];
-        int temp = 0;
-
-        System.out.println(pivot + " " + p + " " + q );
-
-        //check pivot and p
-        for (int i = 0; i < arr.length; i++) {
-            if (pivot > p){
-                temp = pivot;
-                pivot = p;
-                p = temp;
-            } else {
-                p = arr[i+1];
-                q= arr[i-1];
-            }
+    public  static void sort(int[] arr, int low, int high){
+        if (low<high){
+            sort(arr, low, );
+            sort(arr, , high);
         }
-
-
-        System.out.println(pivot + " " + p + " " + q + " ");
-
     };
 }
