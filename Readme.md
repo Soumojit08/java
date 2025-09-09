@@ -1,101 +1,190 @@
-# Java + DSA Everyday questions 💻🔍
+# 📘 15-Day OOP + DSA in Java (Revision Plan)
 
-A concise list of 50 Java + DSA practice problems covering all core topics.
+## ⏱️ Time Commitment
 
----
+* **2–3 hrs daily**
+* Split into:
 
-## 1. Java Basics
-1. Print your name, age, and favorite programming language.
-2. Take two numbers and print their sum, difference, product.
-3. Create a method to check if a number is odd or even.
-4. Build a simple calculator using switch-case.
-5. Menu-driven ATM simulation (deposit, withdraw, balance).
+    * 🎥 **30–45 min videos** (concepts)
+    * 💻 **1.5–2 hrs coding** (practice problems)
 
----
+## 🎯 Goal After 15 Days
 
-## 2. Loops & Conditionals
-1. Print all numbers divisible by 3 between 1 to N.
-2. Print a number pyramid using nested loops.
-3. Find the factorial of a number using a loop.
-4. Print all prime numbers up to 100.
-5. Print all Armstrong numbers from 100 to 999.
+* Revise **all core OOP concepts** in Java with coding examples.
+* Cover **all important DSA topics** (Arrays → Graphs → DP Intro).
+* Solve **50–60 practice problems** (easy + medium).
+* Be fully ready for **SDE sheet & advanced practice roadmap**.
 
 ---
 
-## 3. Arrays
-1. Find the maximum and minimum in an array.
-2. Count the frequency of each element.
-3. Rotate an array to the right by k positions.
-4. Remove duplicates from an array.
-5. Rearrange array in alternating positive and negative order.
+## 📅 Daily Schedule
+
+### **Day 1 – Sept 8: Java & OOP Basics**
+
+* 🎥 [OOPs Concepts in Java (Telusko, 23 min)](https://www.youtube.com/watch?v=BSVKUk58K6U)
+* 🎥 [Classes & Objects in Java (Apna College, 17 min)](https://www.youtube.com/watch?v=xoL6WvCARJY)
+* 💻 Practice:
+
+    * Create a `Car` class with attributes & methods.
+    * Implement `Animal → Dog` inheritance.
 
 ---
 
-## 4. ArrayList
-1. Add, remove, and display elements in an ArrayList.
-2. Search for an element in an ArrayList.
-3. Sort an ArrayList without using built-in methods.
-4. Find the most frequent element.
-5. Remove all duplicates manually.
+### **Day 2 – Sept 9: Static, Constructors, Arrays**
+
+* 🎥 [Static Keyword in Java (Apna College, 10 min)](https://www.youtube.com/watch?v=0Ef9c4nq2Zc)
+* 🎥 [Constructors in Java (Apna College, 12 min)](https://www.youtube.com/watch?v=trwq-lT3w0M)
+* 🎥 [Arrays in Java (Apna College, 16 min)](https://www.youtube.com/watch?v=l9n03VtzL7o)
+* 💻 Problems:
+
+    * Find max/min in array.
+    * Reverse array.
+    * Rotate array by k steps.
 
 ---
 
-## 5. Strings
-1. Reverse a string manually.
-2. Check if a string is a palindrome.
-3. Count vowels and consonants in a string.
-4. Find the first non-repeating character.
-5. Longest substring without repeating characters.
+### **Day 3 – Sept 10: Interfaces + Strings**
+
+* 🎥 [Interfaces in Java (CodeWithHarry, 12 min)](https://www.youtube.com/watch?v=gh0r0YA9t9s)
+* 🎥 [Strings in Java (Apna College, 22 min)](https://www.youtube.com/watch?v=sHhhX3Xx3XU)
+* 💻 Problems:
+
+    * Check palindrome string.
+    * Check if two strings are anagrams.
+    * Reverse words in a sentence.
 
 ---
 
-## 6. Searching
-1. Linear Search in an array.
-2. Binary Search on a sorted array.
-3. Find first and last occurrence of an element.
-4. Count total occurrences of an element in a sorted array.
-5. Find peak element using binary search.
+### **Day 4 – Sept 11: Searching**
+
+* 🎥 [Linear & Binary Search in Java (Apna College, 20 min)](https://www.youtube.com/watch?v=K-RYzDZkzCI)
+* 💻 Problems:
+
+    * Binary Search implementation.
+    * Find first & last occurrence of element.
+    * Search in rotated sorted array.
 
 ---
 
-## 7. Sorting
-1. Implement Bubble Sort.
-2. Implement Selection Sort.
-3. Sort an array of 0s, 1s and 2s.
-4. Merge two sorted arrays.
-5. QuickSort implementation.
+### **Day 5 – Sept 12: Basic Sorting**
+
+* 🎥 [Bubble, Selection & Insertion Sort (Apna College, 22 min)](https://www.youtube.com/watch?v=Mt2x0QpGdA0)
+* 💻 Problems:
+
+    * Implement Bubble Sort.
+    * Implement Insertion Sort.
+* 📝 OOP Mini Project: Banking System using Inheritance & Encapsulation.
 
 ---
 
-## 8. Recursion
-1. Print numbers from 1 to N using recursion.
-2. Find factorial using recursion.
-3. Calculate power (x^n) using recursion.
-4. Print all subsets of a string.
-5. Solve Tower of Hanoi problem.
+### **Day 6 – Sept 13: Advanced Sorting**
+
+* 🎥 [Merge Sort (Jenny’s Lectures, 22 min)](https://www.youtube.com/watch?v=JSceec-wEyw)
+* 🎥 [Quick Sort (Jenny’s Lectures, 22 min)](https://www.youtube.com/watch?v=7h1s2SojIRw)
+* 💻 Problems:
+
+    * Sort array using Merge Sort.
+    * Find Kth largest element.
 
 ---
 
-## 9. Object-Oriented Programming (OOP)
-1. Create a `Student` class with name and rollNo.
-2. Add a constructor and getter methods.
-3. Overload constructors in the class.
-4. Create an array of students and print all.
-5. Inherit `Person` class into `Employee` class and override a method.
+### **Day 7 – Sept 14: Weekly Revision**
+
+* 🎥 [Sorting Algorithms in One Video (Telusko, 25 min)](https://www.youtube.com/watch?v=9TlHvipP5yA)
+* 💻 Mock Test (10 problems):
+
+    * 2 OOP coding tasks.
+    * 4 Array problems.
+    * 2 String problems.
+    * 2 Searching/Sorting problems.
 
 ---
 
-## 10. Mixed (Revision)
-1. Kadane’s Algorithm - Max subarray sum.
-2. Find missing number in array of 1 to n.
-3. Pascal’s Triangle up to n rows.
-4. Longest Common Prefix from array of strings.
-5. Spiral order matrix traversal.
+### **Day 8 – Sept 15: Recursion**
 
+* 🎥 [Recursion in Java (Apna College, 20 min)](https://www.youtube.com/watch?v=GlKlA2Qkz9w)
+* 💻 Problems:
 
+    * Factorial, Fibonacci.
+    * Subset sum.
 
-Happy Coding! 🚀  
-Made with ❤️ by [Soumojit Banerjee]
+---
 
-Feel free to contribute and mail for improvement 
-email : soumojitbanerjee08@gmail.com
+### **Day 9 – Sept 16: Stacks & Queues**
+
+* 🎥 [Stack in Java (Apna College, 16 min)](https://www.youtube.com/watch?v=6oL-0TdVy28)
+* 🎥 [Queue in Java (Apna College, 14 min)](https://www.youtube.com/watch?v=3Et9MrMc02A)
+* 💻 Problems:
+
+    * Valid Parentheses.
+    * Next Greater Element.
+
+---
+
+### **Day 10 – Sept 17: Linked List**
+
+* 🎥 [Linked List in Java (Apna College, 18 min)](https://www.youtube.com/watch?v=0eKMU10uEDI)
+* 💻 Problems:
+
+    * Middle of Linked List.
+    * Reverse Linked List.
+    * Detect Cycle.
+
+---
+
+### **Day 11 – Sept 18: Trees Basics**
+
+* 🎥 [Binary Tree in Java (Apna College, 18 min)](https://www.youtube.com/watch?v=2h4lh-KDoZc)
+* 💻 Problems:
+
+    * Height of Binary Tree.
+    * Symmetric Tree.
+
+---
+
+### **Day 12 – Sept 19: BST**
+
+* 🎥 [Binary Search Tree in Java (Apna College, 20 min)](https://www.youtube.com/watch?v=5cU1ILGy6dM)
+* 💻 Problems:
+
+    * Validate BST.
+    * Lowest Common Ancestor.
+
+---
+
+### **Day 13 – Sept 20: Graph Basics**
+
+* 🎥 [Graph in Java (Apna College, 22 min)](https://www.youtube.com/watch?v=59fUtYYz7ZU)
+* 💻 Problems:
+
+    * Number of Islands.
+    * Cycle detection in graph.
+
+---
+
+### **Day 14 – Sept 21: Backtracking + Greedy**
+
+* 🎥 [Backtracking in Java (Apna College, 20 min)](https://www.youtube.com/watch?v=ci7KEP5kKSE)
+* 🎥 [Greedy Algorithms in Java (Telusko, 17 min)](https://www.youtube.com/watch?v=ARvQcqJ_-NY)
+* 💻 Problems:
+
+    * N-Queens.
+    * Activity Selection.
+
+---
+
+### **Day 15 – Sept 22: DP Basics**
+
+* 🎥 [Dynamic Programming in Java (Apna College, 25 min)](https://www.youtube.com/watch?v=zBdE8DElQQU)
+* 💻 Problems:
+
+    * Fibonacci (DP).
+    * 0/1 Knapsack (intro).
+
+---
+
+## ✅ Outcome After 15 Days
+
+* Strong revision of **OOP + Core DSA**.
+* \~50–60 problems solved (easy + medium).
+* Ready to move into **Ultimate Long-Term SDE Sheet Plan**.
